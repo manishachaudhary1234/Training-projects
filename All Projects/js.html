@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JS</title>
+
+</head>
+
+<body>
+    <button onclick="onbuttonClick()">Click Me </button>
+    <input type="text" id='i'> </input>
+    <button onclick="onInputClick()"> Click this </button>
+    <script>
+        function onbuttonClick() {
+            alert('hii')
+        }
+
+        function onInputClick() {
+            var text = document.getElementById('i').value
+            alert(text)
+        }
+    </script>
+</body>
+
+</html>
